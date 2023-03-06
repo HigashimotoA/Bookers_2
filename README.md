@@ -1,24 +1,41 @@
-# README
+# 本の投稿サイトの作成
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+##　目次
+###1. modelのそれぞれの役割
+###2. Viewファイルのそれぞれの役割
 
-* Ruby version
 
-* System dependencies
+###1. modelのそれぞれの役割
 
-* Configuration
+### user
+-　本を投稿したユーザーについてのモデル。
+### book
+-　ユーザーが投稿した本についてのモデル。
+### book_comment
+-　本に関するコメント機能についてのモデル。
+### favorite
+-　本のいいね機能に関するモデル。
 
-* Database creation
 
-* Database initialization
+###2. Viewファイルのそれぞれの役割
 
-* How to run the test suite
+### -Book
+####index.html
+-  userたちによって投稿された本を一覧化したページ。
+####edit.html
+-　ログイン中のユーザーが本の投稿内容を編集するページ。
+####show.html
+-　投稿された本の詳細についてのページ。
 
-* Services (job queues, cache servers, search engines, etc.)
+### -User
+####index.html
+-  userたちの情報を一覧化したページ。
+####edit.html
+-  ログイン中のuserの情報を編集するページ。
+####show.html
+-　ユーザーの詳細についてのページ。
 
-* Deployment instructions
-
-* ...
+### -device
+####application.html
+-  ログイン/サインアップのページ。
