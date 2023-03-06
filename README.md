@@ -1,12 +1,12 @@
 # 本の投稿サイトの作成
 
 
-##　目次
-###1. modelのそれぞれの役割
-###2. Viewファイルのそれぞれの役割
+## 目次
+### 1. modelのそれぞれの役割
+### 2. 主なViewファイルのそれぞれの役割
 
 
-###1. modelのそれぞれの役割
+### 1. modelのそれぞれの役割
 
 ### user
 -　本を投稿したユーザーについてのモデル。
@@ -18,24 +18,24 @@
 -　本のいいね機能に関するモデル。
 
 
-###2. Viewファイルのそれぞれの役割
+### 2. 主なViewファイルのそれぞれの役割
 
 ### -Book
-####index.html
+#### index.html
 -  userたちによって投稿された本を一覧化したページ。
-####edit.html
+#### edit.html
 -　ログイン中のユーザーが本の投稿内容を編集するページ。
-####show.html
+#### show.html
 -　投稿された本の詳細についてのページ。
 
 ### -User
-####index.html
+#### index.html
 -  userたちの情報を一覧化したページ。
-####edit.html
+#### edit.html
 -  ログイン中のuserの情報を編集するページ。
-####show.html
+#### show.html
 -　ユーザーの詳細についてのページ。
 
 ### -device
-####application.html
+#### application.html
 -  ログイン/サインアップのページ。
